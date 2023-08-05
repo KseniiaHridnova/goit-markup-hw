@@ -10,13 +10,33 @@
     text-decoration: none;
 }
 
-.header-logo {
-        color: #000;
-        font-family: Raleway;
+.logo {
+        font-family: 'Raleway', sans-serif;
         font-size: 26px;
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.78px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* --------------------------HEADER-------------------------------------- */
+
+.header-logo {
+        color: #000;
+        
 }
 
 .header-link {
@@ -25,6 +45,14 @@
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+}
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+    color: #2196F3;
 }
 
 .header-mail,
@@ -36,4 +64,119 @@
     letter-spacing: 0.28px;
 }
 
- 
+/* -------------------------HERO-------------------------------- */
+
+.hero {
+       background: #2F303A;
+}
+
+.hero-title {
+        color: #FFF;
+        text-align: center;
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 1.36;
+        letter-spacing: 2.64px;
+        text-transform: uppercase;
+}
+
+.hero-btn {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.88;
+        letter-spacing: 0.96px;
+}
+
+/* ----------------------------------------ADVANTAGES--------------------------------------- */
+
+.advantages-title {
+        color: #212121;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+}
+
+.advantages-after-title {
+        color: #757575;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+}
+ /* -----------------WORK-------------------------- */
+
+ .work-title {
+        color: #212121;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+ }
+
+ /* ----------------------------TEAM------------------ */
+
+ .team-title {
+        color: #212121;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+ }
+
+ .team-name {
+        color: #212121;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.48px;
+ }
+
+ .team-position {
+        color: #757575;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
+ }
+
+ /* ---------------------FOOTER--------------------------------------------- */
+
+ .footer{
+background: #2F303A;
+ }
+
+ .footer-logo {
+    color: #FFF;
+ }
+
+ .footer-address {
+        color: #FFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+ }
+
+ .footer-mail {
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.42px;
+ }
+
+ .footer-tel {
+            color: rgba(255, 255, 255, 0.60);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.71;
+            letter-spacing: 0.42px;
+ }
